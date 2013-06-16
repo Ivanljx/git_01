@@ -3,6 +3,9 @@ package com.dci.barclays.connector.request;
 import java.util.Map;
 import org.apache.http.client.methods.HttpRequestBase;
 
+/**
+ * this is the RequestCallBack
+  */
 public class CookieRequestCallback implements RequestCallback {
 	private Map<String, String> cookies;
 
